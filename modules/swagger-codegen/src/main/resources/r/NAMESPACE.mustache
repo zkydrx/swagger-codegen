@@ -6,3 +6,9 @@
 export({{{classname}}})
 {{/model}}
 {{/models}}
+export(ApiClient)
+{{#apiInfo}}
+{{#apis}}
+export({{{classFilename}}})
+{{/apis}}
+{{/apiInfo}}
